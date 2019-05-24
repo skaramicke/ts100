@@ -3,15 +3,16 @@
 	"languageLocalName": "Svenska",
 	"cyrillicGlyphs": false,
 	"messages": {
-		"SettingsCalibrationDone": "Calibration done!",
-		"SettingsCalibrationWarning": "Please ensure the tip is at room temperature before continuing!",
+		"SettingsCalibrationDone": "Kalibrering klar!",
+		"SettingsCalibrationWarning": "Se till att spetsen är rumstempererad innan du fortsätter!",
 		"SettingsResetWarning": "Are you sure you want to reset settings to default values?",
+		"SettingsResetWarning": "Är du säker på att du vill återgå till grundinställning?",
 		"UVLOWarningString": "DC LÅG",
 		"UndervoltageString": "Underspänning",
 		"InputVoltageString": "Inspän. V: ",
 		"WarningTipTempString": "Spetstemp: ",
 		"BadTipString": "SPETSFEL",
-		"SleepingSimpleString": "Zzzz",
+		"SleepingSimpleString": "ZzZz",
 		"SleepingAdvancedString": "Viloläge...",
 		"WarningSimpleString": "VARM",
 		"WarningAdvancedString": "!! SPETS VARM !!",
@@ -198,36 +199,36 @@
 			"desc": "Hastighet som den här texten rullar i"
 		},
 		"TipModel": {
-			"text": "TIPMO",
+			"text": "",
 			"text2": [
-				"Tip",
-				"Model"
+				"Spets-",
+				"typ"
 			],
-			"desc": "Tip Model selection"
+			"desc": "Typ av spets"
 		},
 		"SimpleCalibrationMode": {
-			"text": "SMPCAL",
+			"text": "",
 			"text2": [
-				"Simple",
-				"Calibration"
+				"Enkel",
+				"kalibrering"
 			],
-			"desc": "Simple Calibration using Hot water"
+			"desc": "Enkel kalibrering med varmvatten"
 		},
 		"AdvancedCalibrationMode": {
-			"text": "ADVCAL",
+			"text": "",
 			"text2": [
-				"Advanced",
-				"Calibration"
+				"Avancerad",
+				"kalibrering"
 			],
-			"desc": "Advanced calibration using thermocouple on the tip"
+			"desc": "Avancerad kalirering med hjälp av värmesensor i spetsen"
 		},
 		"PowerInput": {
-			"text": "PWRW",
+			"text": "",
 			"text2": [
-				"Power",
-				"Wattage"
+				"Effekt-",
+				"angivelse"
 			],
-			"desc": "Power Wattage of the power adapter used"
+			"desc": "Max-effekt från den anslutna el-adaptern, i watt"
 		}
 	}
 }
